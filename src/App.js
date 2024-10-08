@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <div></div>
+    <h1>사이버보안전공 졸업전시회 사이트</h1>
   );
 }
 
