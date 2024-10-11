@@ -1,8 +1,9 @@
 import React from "react";
+import '../styles/About.css'
 
 const About = () => {
     return (
-        <h1>About 페이지입니다.</h1>
+        <div>About 페이지입니다.</div>
     )
 }
 

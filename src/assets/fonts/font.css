@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'ethnocentric';
+    font-weight: 500;
+    font-style: normal;
+    src: url("./ethnocentric.otf") format('opentype'),
+        url("./ethnocentric.woff") format('woff');
+}

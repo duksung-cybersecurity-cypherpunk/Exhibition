@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/Main.css"
 
 const Main = () => {
     return (
-        <h1>메인입니다.</h1>
+        <div className="MainText">메인입니다. Main</div>
     )
 }
 

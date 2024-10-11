@@ -8,15 +8,17 @@ import Info from "./pages/Info";
 
 function App() {
     return (
-        <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
-            <Routes>
-                <Route path="/" element={<Main/>}/>
-                <Route path="/about" element={<About/>}/>
-                <Route path="/project" element={<Project/>}/>
-                <Route path="/guest" element={<Guestbook/>}/>
-                <Route path="/info" element={<Info/>}/>
-            </Routes>
-        </BrowserRouter>
+        <div className="App">
+            <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
+                <Routes>
+                    <Route path="/" element={<Main />}/>
+                    <Route path="/about" element={<About />}/>
+                    <Route path="/project" element={<Project />}/>
+                    <Route path="/guest" element={<Guestbook />}/>
+                    <Route path="/info" element={<Info />}/>
+                </Routes>
+            </BrowserRouter>
+        </div>
     );
 }
 
