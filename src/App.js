@@ -7,6 +7,9 @@ import Guestbook from "./pages/Guestbook";
 import Info from "./pages/Info";
 import {isMobile} from "react-device-detect";
 import {useEffect} from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 
 function App() {
     function setScreenSize() {
@@ -20,6 +23,7 @@ function App() {
 
     return (
         <div className={isMobile? "MobileApp" : "App"}>
+            <Header />
             <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
                 <Routes>
                     <Route path="/" element={<Main />}/>
@@ -29,6 +33,7 @@ function App() {
                     <Route path="/info" element={<Info />}/>
                 </Routes>
             </BrowserRouter>
+            <Footer />
         </div>
     );
 }
