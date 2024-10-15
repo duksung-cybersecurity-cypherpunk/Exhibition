@@ -9,7 +9,8 @@ import {isMobile} from "react-device-detect";
 import {useEffect} from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
+import {isMobile} from "react-device-detect";
+import {useEffect} from "react";
 
 function App() {
     function setScreenSize() {
