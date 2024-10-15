@@ -4,11 +4,11 @@ import '../styles/Header.css';  // CSS 파일 불러오기
 const Header = () => {
   return (
     <header className="header">
-        <div className="logo">
-        <div class="h_title">CypherPunk</div>
-        <div class="h_subtitle">Duksung W.Univ Cyber Security 2nd Graduation Exhibition</div>
+      <div className="logo">
+        <div class="hTitle">CypherPunk</div>
+        <div class="hSubtitle">Duksung W.Univ Cyber Security 2nd Graduation Exhibition</div>
       </div>
-      <nav className="nav-links">
+      <nav className="navLinks">
         <a href="#about" className="about">About</a>
         <a href="#projects" className="projects">Projects</a>
         <a href="#guest-book" className="guest-book">Guest Book</a>
