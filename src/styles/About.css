@@ -247,9 +247,10 @@
     font-size: 30px;
     line-height:28px;
     margin-bottom: 37px;
-    gap:24px;
+    gap:16px;
     flex-direction: row; 
     align-items: center;
+    text-align: center;
 }
 
 
@@ -260,25 +261,32 @@
 
 .nameBox {
     width: 124px;
-    height: 28px;
+    height: 36px;
     margin-bottom:24px;
     display: flex; 
     flex-direction: row; 
     align-items: center;
     gap: 3px;
+    display: inline-flex;
+    justify-content: center;
 }
 
 .name3KR{
     min-width:79px;
-    height:28px;
+    height:36px;
     font-size: 28px;
+    line-height:28px;
+    text-align: center;
 }
 
 .name3En{
     width:42px;
-    height:28px;
+    min-height:36px;
     font-size: 13px;
     font-weight: 350;
+    bottom: 0px;
+    align-items: flex-end;
+    line-height:28px;
 }
 
 .committee-executive::after {
@@ -329,13 +337,14 @@
 .committee-administration::after {
     content: '';
     position: absolute;
-    top: 40px;   
+    top: 40px;  
     transform: translateX(-50%);
     width: 139.56px;
     border-bottom: 2px solid #FBE1E8;
 }
 
 .committee-onlineexhibition{
+    text-align: center;
 
 }
 .committee-onlineexhibition::after {
