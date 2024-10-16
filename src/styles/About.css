@@ -19,7 +19,7 @@
 
 }
 
-.content-section {
+.contentSection {
     display: flex;
     align-items: flex-start;
     gap: 109.75px;
@@ -27,7 +27,7 @@
     margin-left: 109.5px;
 }
 
-.content-text {
+.contentText {
     margin-top: 91px;
     flex-direction: column;
     width: 550px;
@@ -87,16 +87,16 @@
     margin-top: 35px;
 }
 
-.underline3{
+.underline3 {
     height: 1px;
     background-color: #FBE1E8;
     margin: 0 auto;
     margin-top: 57px;
-    width:996px;
+    width: 996px;
 
 }
 
-.professor-section {
+.professorSection {
     margin-top: 70px;
     text-align: center;
 }
@@ -112,7 +112,7 @@
 
 }
 
-.Group1356_title {
+.Group1356Title {
     font-size: 40px;
     font-weight: bold;
     width: 361px;
@@ -121,45 +121,52 @@
     margin-left: 66.5px;
 }
 
-.Group1356_subtitle {
+.Group1356Subtitle {
     font-size: 20px;
     width: 494px;
     height: 31px;
     text-align: center;
 }
 
-.professor-info-cover {
+.professorInfoCover {
+    position: relative;
     max-width: 1100px;
     max-height: 444px;
-    border: 1px solid #FBE1E8;
     margin-left: 90px;
 }
 
-.professor-info {
+.professorInfoCover img {
+    width: 1100px;
+    height: 444px;
+}
+
+.professorOverlayText {
     display: flex;
     align-items: flex-start;
     margin-top: 42px;
     max-width: 1033px;
     max-height: 360px;
     margin-left: 33.5px;
-    border: 1px solid #FBE1E8;
     margin: 0 auto;
+    position: absolute;
+    left: 40px;
+    top: 40px
 }
 
-.professor-image img {
+.professorImage img {
     margin-top: 0px;
     max-width: 180px;
     max-height: 180px;
     margin: 0;
 }
 
-.professor-text {
+.professorText {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.professor-text-name {
+.professorTextName {
     margin-left: 34px;
     width: 166px;
     height: 28px;
@@ -168,7 +175,7 @@
     line-height: 28px;
 }
 
-.professor-text-content {
+.professorTextContent {
     margin-left: 34px;
     margin-top: 20px;
     width: 819px;
@@ -184,71 +191,75 @@
     margin-top: 28px;
 }
 
-.graduation-committee{
-    
-}
-.committee-section{
-    width:501px;
-    height:143px;
+.graduationCommittee {}
+
+.committeeSection {
+    width: 501px;
+    height: 143px;
     margin-left: 390px;
     margin-top: 70px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align:center;
-}
-.committee-title{
-    font-size:40px;
-    font-weight:500;
-    line-height:44px;
-    width:501px;
-    height:82px;
+    text-align: center;
 }
 
-.committee-subtitle{
-    margin-top:30px;
-    font-size:20px;
-    line-height:22px;
-    width:501px;
-    height:31px;
+.committeeTitle {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    width: 501px;
+    height: 82px;
 }
 
-.committee-role{
-    margin-top:105px;
+.committeeSubtitle {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 22px;
+    width: 501px;
+    height: 31px;
+}
+
+.committeeRole {
+    margin-top: 105px;
     width: 460.56px;
     height: 95px;
     margin-left: 412px;
-    display: flex; 
-    flex-direction: row; 
+    display: flex;
+    flex-direction: row;
     gap: 181.44px;
 }
-.committee-executive{
+
+.committeeExecutive {
     width: 139.56px;
-    height:95px;
-    text-align:center;
+    height: 95px;
+    text-align: center;
     position: relative;
 }
+
 .position1 {
-    margin-bottom: 16px; 
+    margin-bottom: 16px;
     font-size: 30px;
-    line-height:28px;
+    line-height: 28px;
 }
 
 .name1 {
     margin-top: 40px;
     font-size: 28px;
 }
+
 .position2 {
     margin-bottom: 41px;
     font-size: 30px;
-    line-height:28px;
+    line-height: 28px;
 }
+
 .position3 {
     font-size: 30px;
-    line-height:28px;
+    line-height: 28px;
     margin-bottom: 37px;
-    gap:16px;
-    flex-direction: row; 
+    gap: 16px;
+    flex-direction: row;
     align-items: center;
     text-align: center;
 }
@@ -262,110 +273,112 @@
 .nameBox {
     width: 124px;
     height: 36px;
-    margin-bottom:24px;
-    display: flex; 
-    flex-direction: row; 
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 3px;
     display: inline-flex;
     justify-content: center;
 }
 
-.name3KR{
-    min-width:79px;
-    height:36px;
+.name3KR {
+    min-width: 79px;
+    height: 36px;
     font-size: 28px;
-    line-height:28px;
+    line-height: 28px;
     text-align: center;
 }
 
-.name3En{
-    width:42px;
-    min-height:36px;
+.name3En {
+    width: 42px;
+    min-height: 36px;
     font-size: 13px;
     font-weight: 350;
     bottom: 0px;
     align-items: flex-end;
-    line-height:28px;
+    line-height: 28px;
 }
 
-.committee-executive::after {
+.committeeExecutive::after {
     content: '';
     position: absolute;
-    top: 40px;   
+    top: 40px;
     transform: translateX(-50%);
     width: 139.56px;
     border-bottom: 2px solid #FBE1E8;
 }
-.committe-organization{
+
+.committeOrganization {
     margin-top: 67px;
     margin-left: 185px;
-    display: flex; 
+    display: flex;
     flex-direction: row;
     gap: 110px;
     text-align: center;
     position: relative;
 }
 
-.committee-operations{
+.committeeOperations {}
 
-}
-.committee-operations::after {
+.committeeOperations::after {
     content: '';
     position: absolute;
-    top: 40px;   
+    top: 40px;
     transform: translateX(-50%);
     width: 139.56px;
     border-bottom: 2px solid #FBE1E8;
 }
 
-.committee-publicrelations{
+.committeePublicrelations {}
 
-}
-.committee-publicrelations::after {
+.committeePublicrelations::after {
     content: '';
     position: absolute;
-    top: 40px;   
+    top: 40px;
     transform: translateX(-50%);
     width: 139.56px;
     border-bottom: 2px solid #FBE1E8;
 }
 
-.committee-administration{
+.committeeAdministration {}
 
-}
-.committee-administration::after {
+.committeeAdministration::after {
     content: '';
     position: absolute;
-    top: 40px;  
+    top: 40px;
     transform: translateX(-50%);
     width: 139.56px;
     border-bottom: 2px solid #FBE1E8;
 }
 
-.committee-onlineexhibition{
+.committeeOnlineexhibition {
     text-align: center;
 
 }
-.committee-onlineexhibition::after {
+
+.committeeOnlineexhibition::after {
     content: '';
     position: absolute;
-    top: 37px;   
+    top: 37px;
     transform: translateX(-50%);
     width: 161px;
     border-bottom: 2px solid #FBE1E8;
 }
-.detail-column1{
+
+.detailColumn1 {
     width: 139.56px;
     height: 252px;
 
 }
-.detail-column2{
+
+.detailColumn2 {
     width: 139.56px;
     height: 304px;
 
 }
-.detail-column3{
+
+.detailColumn3 {
     width: 161px;
     height: 257px;
 }
@@ -373,17 +386,17 @@
 .h3 {
     font-size: 30px;
     font-weight: bold;
-    color: #FBE1E8; 
-    border-bottom: 1px solid #FBE1E8; 
-    padding-bottom: 5px; 
-    display: inline-block; 
-    margin-bottom: 10px; 
-    line-height:28px;
+    color: #FBE1E8;
+    border-bottom: 1px solid #FBE1E8;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 28px;
 }
 
 .p {
     font-size: 28px;
     color: #FBE1E8;
-    margin-top: 10px; 
-    line-height:28px;
+    margin-top: 10px;
+    line-height: 28px;
 }
