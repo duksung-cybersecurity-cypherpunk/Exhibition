@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.about {
+    align-items: center;
+}
+
+.poster img {
+    width: 350.25px;
+    height: 503px;
+}
+
+.content {
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.contentSection {
+    display: flex;
+    align-items: flex-start;
+    gap: 109.75px;
+    margin-top: 80px;
+    margin-left: 109.5px;
+}
+
+.contentText {
+    margin-top: 91px;
+    flex-direction: column;
+    width: 550px;
+    height: 412px;
+    margin-top: 91px;
+}
+
+.title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    width: 420px;
+    height: 24px;
+    padding-top: 0px;
+    line-height: 24px;
+
+}
+
+.subtitle {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 40px;
+    font-weight: medium;
+    line-height: 40px;
+    color: #ED8EB5;
+    width: 235px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.highlight {
+    color: #ED8EB5;
+}
+
+
+.description {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FBE1E8;
+    width: 550px;
+    min-height: 187px;
+    display: flex;
+    margin-top: 60px;
+    display: block;
+}
+
+.underline1 {
+    height: 1px;
+    background-color: #FBE1E8;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.underline2 {
+    height: 1px;
+    background-color: #FBE1E8;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+.underline3 {
+    height: 1px;
+    background-color: #FBE1E8;
+    margin: 0 auto;
+    margin-top: 57px;
+    width: 996px;
+
+}
+
+.professorSection {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.Group1356 {
+    width: 494px;
+    max-height: 85px;
+    margin-left: 393px;
+    margin-right: 393px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.Group1356Title {
+    font-size: 40px;
+    font-weight: bold;
+    width: 361px;
+    height: 64px;
+    text-align: center;
+    margin-left: 66.5px;
+}
+
+.Group1356Subtitle {
+    font-size: 20px;
+    width: 494px;
+    height: 31px;
+    text-align: center;
+}
+
+.professorInfoCover {
+    position: relative;
+    max-width: 1100px;
+    max-height: 444px;
+    margin-left: 90px;
+    position: relative; /* 전체 섹션을 고정 */
+    overflow: hidden;
+}
+
+.professorInfoCover img {
+    width: 1100px;
+    height: 444px;
+}
+
+.professorOverlayText {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 42px;
+    max-width: 1033px;
+    max-height: 360px;
+    margin-left: 33.5px;
+    margin: 0 auto;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+
+.professorImage img {
+    margin-top: 0px;
+    max-width: 180px;
+    max-height: 180px;
+    margin: 0;
+}
+
+.pageIndicator {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.professorText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.professorTextName {
+    margin-left: 34px;
+    width: 166px;
+    height: 28px;
+    text-align: left;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.professorTextContent {
+    margin-left: 34px;
+    margin-top: 20px;
+    width: 819px;
+    height: 312px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 24px;
+
+}
+
+.pagination {
+    margin-top: 28px;
+}
+
+.graduationCommittee {}
+
+.committeeSection {
+    width: 501px;
+    height: 143px;
+    margin-left: 390px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.committeeTitle {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    width: 501px;
+    height: 82px;
+}
+
+.committeeSubtitle {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 22px;
+    width: 501px;
+    height: 31px;
+}
+
+.committeeRole {
+    margin-top: 105px;
+    width: 460.56px;
+    height: 95px;
+    margin-left: 412px;
+    display: flex;
+    flex-direction: row;
+    gap: 181.44px;
+}
+
+.committeeExecutive {
+    width: 139.56px;
+    height: 95px;
+    text-align: center;
+    position: relative;
+}
+
+.position1 {
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.name1 {
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.position2 {
+    margin-bottom: 41px;
+    font-size: 30px;
+    line-height: 28px;
+}
+
+.position3 {
+    font-size: 30px;
+    line-height: 28px;
+    margin-bottom: 37px;
+    gap: 16px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+
+.name2 {
+    margin-top: 24px;
+    font-size: 28px;
+}
+
+.nameBox {
+    width: 124px;
+    height: 36px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.name3KR {
+    min-width: 79px;
+    height: 36px;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.name3En {
+    width: 42px;
+    min-height: 36px;
+    font-size: 13px;
+    font-weight: 350;
+    bottom: 0px;
+    align-items: flex-end;
+    line-height: 28px;
+}
+
+.committeeExecutive::after {
+    content: '';
+    position: absolute;
+    top: 40px;
+    transform: translateX(-50%);
+    width: 139.56px;
+    border-bottom: 2px solid #FBE1E8;
+}
+
+.committeOrganization {
+    margin-top: 67px;
+    margin-left: 185px;
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    text-align: center;
+    position: relative;
+}
+
+.committeeOperations {}
+
+.committeeOperations::after {
+    content: '';
+    position: absolute;
+    top: 40px;
+    transform: translateX(-50%);
+    width: 139.56px;
+    border-bottom: 2px solid #FBE1E8;
+}
+
+.committeePublicrelations {}
+
+.committeePublicrelations::after {
+    content: '';
+    position: absolute;
+    top: 40px;
+    transform: translateX(-50%);
+    width: 139.56px;
+    border-bottom: 2px solid #FBE1E8;
+}
+
+.committeeAdministration {}
+
+.committeeAdministration::after {
+    content: '';
+    position: absolute;
+    top: 40px;
+    transform: translateX(-50%);
+    width: 139.56px;
+    border-bottom: 2px solid #FBE1E8;
+}
+
+.committeeOnlineexhibition {
+    text-align: center;
+
+}
+
+.committeeOnlineexhibition::after {
+    content: '';
+    position: absolute;
+    top: 37px;
+    transform: translateX(-50%);
+    width: 161px;
+    border-bottom: 2px solid #FBE1E8;
+}
+
+.detailColumn1 {
+    width: 139.56px;
+    height: 252px;
+
+}
+
+.detailColumn2 {
+    width: 139.56px;
+    height: 304px;
+
+}
+
+.detailColumn3 {
+    width: 161px;
+    height: 257px;
+}
+
+.h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FBE1E8;
+    border-bottom: 1px solid #FBE1E8;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 28px;
+}
+
+.p {
+    font-size: 28px;
+    color: #FBE1E8;
+    margin-top: 10px;
+    line-height: 28px;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
