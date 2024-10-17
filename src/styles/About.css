@@ -133,6 +133,8 @@
     max-width: 1100px;
     max-height: 444px;
     margin-left: 90px;
+    position: relative; /* 전체 섹션을 고정 */
+    overflow: hidden;
 }
 
 .professorInfoCover img {
@@ -150,8 +152,9 @@
     margin: 0 auto;
     position: absolute;
     left: 40px;
-    top: 40px
+    top: 40px;
 }
+
 
 .professorImage img {
     margin-top: 0px;
@@ -164,7 +167,6 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
-    font
 }
 
 .professorText {
@@ -406,4 +408,22 @@
     color: #FBE1E8;
     margin-top: 10px;
     line-height: 28px;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
 }
