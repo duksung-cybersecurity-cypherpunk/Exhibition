@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 132px;
+  width: 100%;
+}
+
+.footerGroup {
+  border-top: 1px solid #FBE1E8;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 0 0 0;
+}
+
+.footerAddress {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  font-weight: 350;
+  line-height: 24px;
+}
+
+.footerIcons {
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 30px;
+  gap: 20px;
+}
+
+.footerIcon {
+  width: 30px;
+  height: 30px;
+}
