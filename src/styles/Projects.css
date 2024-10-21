@@ -1,0 +1,220 @@
+.projectPageTitleContainer, .developerHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectPageTitle, .developerTitle {
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 85px;
+    width: fit-content;
+}
+
+.projectPageDescription, .developerDescription {
+    font-size: 20px;
+    margin-top: 27px;
+    width: fit-content;
+}
+
+.projectPageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.teamRow1, .teamRow2 {
+    display: flex;
+    justify-content: center;
+}
+
+.teamRow1 {
+    margin-top: 87px;
+}
+
+.teamRow2 {
+    margin-top: 34px;
+}
+
+.teamName {
+    cursor: pointer;
+    font-size: 22px;
+    margin: 0 25px
+}
+
+.teamName.selected {
+    font-weight: 700;
+    color: #ED8EB5
+}
+
+.teamName:hover {
+    font-weight: 700;
+    color: #ED8EB5
+}
+
+.badge {
+    height: 23px
+}
+
+.projectContainer {
+    padding: 0 64px;
+    margin-top: 85px;
+}
+
+.projectHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.projectTitleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.projectInfoTitleContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.projectTitleIcon {
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+.projectTitle {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.projectTeamName {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.projectInfo {
+    margin-top: 40px;
+}
+
+.projectInfoDashIcon {
+    max-width: 30px;
+}
+
+.projectInfoTriangleIcon {
+    max-width: 22px;
+}
+
+.projectInfoTitle {
+    font-size: 22px;
+    font-weight: 700;
+    color: #C2D1F1;
+    margin-left: 10px;
+}
+
+.projectInfoDescription {
+    white-space: pre-line;
+    line-height: 1.5;
+}
+
+.projectStack {
+    margin-bottom: 5px;
+}
+
+.projectStackTitle {
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.badgeContainer {
+    display: flex;
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
+
+.projectStack {
+    display: flex;
+    align-items: start;
+}
+
+.chatContainer {
+    display: flex;
+    margin-top: -15px;
+}
+
+.developerInfoContainer {
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.developerName {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: -8px;
+}
+
+.developerRole {
+    font-size: 13px;
+}
+
+.speechBubbleContainer {
+    display: flex;
+    max-width: 75%;
+    margin: 90px 0 0 20px;
+    z-index: 2;
+    min-width: 27%;
+}
+
+.speechBubble {
+    max-height: 30px;
+}
+
+.developerImg {
+    max-width: 140px;
+}
+
+.commentBoxOdd {
+    background: #585156;
+    height: fit-content;
+    border-radius: 17px;
+    padding: 20px;
+    margin: 1px 0 0 -20px;
+    white-space: pre-line;
+}
+
+.commentBoxEven {
+    background: #585156;
+    height: fit-content;
+    border-radius: 17px;
+    padding: 20px;
+    margin: 1px -20px 0 0;
+    white-space: pre-line;
+}
+
+.chatContainerEven {
+    display: flex;
+    justify-content: end;
+    margin-top: -15px;
+}
+
+.speechBubbleContainerEven {
+    display: flex;
+    justify-content: end;
+    max-width: 75%;
+    margin: 90px 20px 0 0;
+    z-index: 2;
+    min-width: 27%;
+}
+
+.chatListContainer {
+    width: 65%;
+    margin-top: 100px;
+}
+
+.developerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
