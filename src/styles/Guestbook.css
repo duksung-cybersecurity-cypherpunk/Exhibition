@@ -5,6 +5,15 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+
 .guest-book {
     color: #FBE1E8;
     margin-top: 139px;
@@ -44,27 +53,29 @@
 .textarea-wrapper {
     position: relative;
     display: inline-block;
-    /* inline-block으로 크기에 맞게 wrapping */
     width: 100%;
     box-sizing: border-box;
     border: 1px solid #FBE1E8;
+    background-color: #1a1a1a;
 }
 
 .message-form textarea {
-
-    background-color: #1a1a1a;
     color: #FBE1E8;
+    background-color: #1a1a1a;
     font-size: 18px;
     font-family: 'Noto Sans KR', sans-serif;
     outline: none;
     resize: none;
     width: 702px;
     min-height: 332px;
+    border: none;
+    margin-left: 23px;
+    margin-top: 26px;
+
 }
 
 .message-form .char-count {
     position: absolute;
-    margin-top: 281px;
     bottom: 6px;
     right: 28px;
     color: #FBE1E8;
@@ -79,23 +90,21 @@
     margin-left: 379px;
     margin-top: 27px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
 }
 
 .message-form .submit-button:hover {
-    background-color: #ED8EB5;
-    color: #1a1a1a;
+    border: 1px solid;
+    cursor: pointer;
 }
+
 
 .horizontal-line {
     width: 1180px;
     height: 1px;
-    /* 선의 두께 */
     background-color: #FBE1E8;
-    /* 선의 색상 */
     margin-top: 45px;
     margin-left: 55px;
-
 }
 
 .message-cards-container {

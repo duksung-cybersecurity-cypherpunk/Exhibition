@@ -1,26 +1,38 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/Guestbook.css';
 import image1 from '../assets/images/message11_1.png';
 import image2 from '../assets/images/message11_2.png';
 import image3 from '../assets/images/message11_3.png';
 
 const GuestBook = () => {
-    const [messages, setMessages] = useState([
-        {
-            content: '안녕하세요 사이버보안 2기 졸업생 여러분! 벌써 졸업이라니, 시간도 금방 지나간 것 같아요. 모두들 잘 해나가리라 믿어요!',
-            imageSrc: image1,
-        },
-        {
-            content: '도리미파솔라시도 도레미파솔시도레미...',
-            imageSrc: image2,
-        },
-        {
-            content: '졸업을 축하드립니다. 모든 분들께 큰 행운이 가득하길 바랍니다!',
-            imageSrc: image3,
-        },
-    ]);
+    const loadMessages = () => {
+        const savedMessages = localStorage.getItem('guestbookMessages');
+        if (savedMessages) {
+            return JSON.parse(savedMessages);
+        } else {
+            return [
+                {
+                    content: '안녕하세요 사이버보안 2기 졸업생 여러분! 벌써 졸업이라니, 시간도 금방 지나간 것 같아요. 모두들 잘 해나가리라 믿어요!',
+                    imageSrc: image1,
+                },
+                {
+                    content: '졸업을 진심으로 축하드립니다.',
+                    imageSrc: image2,
+                },
+                {
+                    content: '졸업을 축하드립니다. 모든 분들께 큰 행운이 가득하길 바랍니다!',
+                    imageSrc: image3,
+                },
+            ];
+        }
+    };
 
+    const [messages, setMessages] = useState(loadMessages);
     const [newMessage, setNewMessage] = useState('');
+
+    useEffect(() => {
+        localStorage.setItem('guestbookMessages', JSON.stringify(messages));
+    }, [messages]);
 
     const handleInputChange = (e) => {
         setNewMessage(e.target.value);
@@ -30,19 +42,17 @@ const GuestBook = () => {
         if (newMessage.trim()) {
             const images = [image1, image2, image3];
             const randomImage = images[Math.floor(Math.random() * images.length)];
-            setMessages((prevMessages) => [
-                ...prevMessages,
+            const updatedMessages = [
+                ...messages,
                 {
-
                     content: newMessage,
-
                     imageSrc: randomImage,
                 },
-            ]);
+            ];
+            setMessages(updatedMessages);
             setNewMessage('');
         }
     };
-
     return (
         <div className="guest-book-all">
             <div className="guest-book">
@@ -74,8 +84,8 @@ const MessageForm = ({ newMessage, handleInputChange, handleFormSubmit }) => {
                 <textarea
                     value={newMessage}
                     onChange={handleInputChange}
-                    placeholder="글을 이렇게 쓰는겁니다 아시겠죠"
-                    maxLength={140}
+                    placeholder="축하 메시지 쓰는 곳"
+                    maxLength={139}
                 />
                 <p className="char-count">{newMessage.length}/140</p>
             </div>
@@ -88,6 +98,7 @@ const MessageForm = ({ newMessage, handleInputChange, handleFormSubmit }) => {
         </div>
     );
 };
+
 
 const MessageCard = ({ message }) => {
     return (
