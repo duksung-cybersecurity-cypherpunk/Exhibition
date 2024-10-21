@@ -14,5 +14,6 @@ body {
     padding: 48px 43px;
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
 }
 

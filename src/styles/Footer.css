@@ -2,20 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  bottom: 0;
-  max-width: 1184px;
   height: 132px;
-  box-sizing: border-box;
+  width: 100%;
 }
 
 .footerGroup {
   border-top: 1px solid #FBE1E8;
   display: flex;
-  width: 1184px;
-  height: 102px;
-  box-sizing: border-box;
-  gap: 544px;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px 0 0 0;
 }
 
 .footerAddress {
@@ -23,15 +19,11 @@
   font-size: 15px;
   font-weight: 350;
   line-height: 24px;
-  position: relative;
-  top: 30px;
-  width: 500px;
 }
 
 .footerIcons {
   display: flex;
   align-items: center;
-  margin-top: 45px;
   width: 130px;
   height: 30px;
   gap: 20px;

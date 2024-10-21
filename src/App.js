@@ -12,8 +12,8 @@ import Footer from "./components/Footer";
 function App() {
     return (
         <div className="App">
-            <Header />
-            <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
+            <BrowserRouter basename="/Exhibition">
+                <Header />
                 <Routes>
                     <Route path="/" element={<Main />}/>
                     <Route path="/about" element={<About />}/>
@@ -21,8 +21,8 @@ function App() {
                     <Route path="/guest" element={<Guestbook />}/>
                     <Route path="/info" element={<Info />}/>
                 </Routes>
+                <Footer />
             </BrowserRouter>
-            <Footer />
         </div>
     );
 }

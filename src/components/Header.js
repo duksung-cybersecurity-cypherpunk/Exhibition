@@ -1,45 +1,45 @@
 import React, { useState } from 'react';
-import '../styles/Header.css';  // CSS 파일 불러오기
+import '../styles/Header.css';
+import {Link} from "react-router-dom";
 
 const Header = () => {
-  const [selectedLink, setSelelctedLink] = useState('');
+  const [selectedLink, setSelectedLink] = useState('');
 
   const handleLinkClick = (link) => {
-    setSelelctedLink(link);
+    setSelectedLink(link);
   }
 
   return (
     <header className="header">
       <div className="logo">
-        <div class="headerTitle">CypherPunk</div>
-        <div class="headerSubtitle">Duksung W.Univ Cyber Security 2nd Graduation Exhibition</div>
+        <Link className="headerTitle" to="/" onClick={() => handleLinkClick("")}>CypherPunk</Link>
+        <div className="headerSubtitle">Duksung W.Univ Cyber Security 2nd Graduation Exhibition</div>
       </div>
-      
-      <nav className="navLinks">
-        <a href="#about"
-          className={`navLink ${selectedLink === 'about' ? 'active' : ''}`}
-          onClick={() => handleLinkClick('about')}>
+      <div className="navLinks">
+        <Link to="/" title="About"
+           className={`navLink ${selectedLink === 'about' ? 'active' : ''}`}
+           onClick={() => handleLinkClick('about')}>
           About
-        </a>
+        </Link>
 
-        <a href="#about"
-          className={`navLink ${selectedLink === 'about' ? 'active' : ''}`}
-          onClick={() => handleLinkClick('about')}>
+        <Link to="/projects" title="Projects"
+          className={`navLink ${selectedLink === 'project' ? 'active' : ''}`}
+          onClick={() => handleLinkClick('project')}>
           Projects
-        </a>
+        </Link>
 
-        <a href="#guest-book"
+        <Link to="/guestbook" title="Guest Book"
           className={`navLink ${selectedLink === 'guest-book' ? 'active' : ''}`}
           onClick={() => handleLinkClick('guest-book')}>
           Guest Book
-        </a>
+        </Link>
 
-        <a href="#information"
+        <Link to="/information" title="Information"
           className={`navLink ${selectedLink === 'information' ? 'active' : ''}`}
           onClick={() => handleLinkClick('information')}>
           Information
-        </a>
-      </nav>
+        </Link>
+      </div>
     </header>
   );
 };
