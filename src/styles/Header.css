@@ -1,27 +1,24 @@
 .header {
   display: flex;
-  align-items: baseline;
-  position: fixed;
-  width: 1184px;
-  height: 124px;
+  align-items: flex-end;
+  position: sticky;
+  justify-content: space-between;
+  height: fit-content;
+  margin: 0 0 58px 0;
 }
 
 .logo {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  position: fixed;
-  width: 472px;
-  height: 66px;
+  height: fit-content;
 }
 
 .headerTitle {
-  font-family: 'ethnocentric';
+  font-family: 'ethnocentric', serif;
   font-size: 40px;
   color: #FBE1E8;
-  width: 379px;
-  height: 44px;
-  margin-left: 10px;
+  height: fit-content;
+  text-decoration: none;
 }
 
 .headerSubtitle {
@@ -29,17 +26,13 @@
   font-weight: lighter;
   font-size: 18px;
   color: #FBE1E8;
-  width: 472px;
-  height: 22px;
-  margin-left: 10px;
+  height: fit-content;
 }
 
 .navLinks {
   display: flex;
   align-items: center;
   gap: 45px;
-  margin-left: 650px;
-  margin-top: 41px;
 }
 
 .navLinks a {
@@ -71,5 +64,17 @@
 }
 
 .navLinks a:hover {
+  font-weight: bold;
+}
+
+.navLinks a::after {
+  content: attr(title);
+  display: block;
+  font-weight: 700;
+  visibility: hidden;
+  height: 0;
+}
+
+.navLinks .active {
   font-weight: bold;
 }
