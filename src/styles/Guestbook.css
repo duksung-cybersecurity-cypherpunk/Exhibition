@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scrollbar-width: none;
+}
+
+
+.guest-book {
+    color: #FBE1E8;
+    margin-top: 139px;
+    margin-left: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+. guestbook-fixed {}
+
+.guest-book-title {
+    font-size: 32px;
+    color: #FBE1E8;
+    width: 344px;
+    height: 61px;
+    font-size: 40px;
+    text-align: right;
+    margin-top: 105px;
+}
+
+.guest-book-description {
+    font-size: 20px;
+    text-align: right;
+    color: #FBE1E8;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    margin-top: 34px;
+    margin-left: 56px;
+}
+
+.textarea-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #FBE1E8;
+    background-color: #1a1a1a;
+}
+
+.message-form textarea {
+    color: #FBE1E8;
+    background-color: #1a1a1a;
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+    resize: none;
+    width: 702px;
+    min-height: 332px;
+    border: none;
+    margin-left: 23px;
+    margin-top: 26px;
+
+}
+
+.message-form .char-count {
+    position: absolute;
+    bottom: 6px;
+    right: 28px;
+    color: #FBE1E8;
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.message-form .submit-button {
+    background-color: transparent;
+    width: 323px;
+    height: 60px;
+    margin-left: 379px;
+    margin-top: 27px;
+    cursor: pointer;
+}
+
+
+
+.horizontal-line {
+    width: 1180px;
+    height: 1px;
+    background-color: #FBE1E8;
+    margin-top: 45px;
+    margin-left: 55px;
+}
+
+.message-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 77px;
+    margin-left: 152px;
+}
+
+.message-card {
+    width: 320px;
+    height: 420px;
+    color: #FBE1E8;
+    position: relative;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+
+}
+
+.message-content {
+    font-size: 16px;
+    line-height: 1.5;
+    word-break: break-word;
+    display: flex;
+    flex-direction: column;
+    color: #FBE1E8;
+    padding: 50px;
+
+}
