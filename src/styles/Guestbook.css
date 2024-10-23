@@ -90,13 +90,8 @@ html {
     margin-left: 379px;
     margin-top: 27px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
 }
 
-.message-form .submit-button:hover {
-    border: 1px solid;
-    cursor: pointer;
-}
 
 
 .horizontal-line {

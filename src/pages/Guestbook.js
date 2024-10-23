@@ -92,7 +92,10 @@ const MessageForm = ({ newMessage, handleInputChange, handleFormSubmit }) => {
             <img
                 src={require("../assets/images/submit-button.png")}
                 alt="등록하기 버튼"
-                onClick={handleFormSubmit}
+                onClick={() => {
+                    alert("등록되었습니다.");
+                    handleFormSubmit();
+                }}
                 className="submit-button"
             />
         </div>
