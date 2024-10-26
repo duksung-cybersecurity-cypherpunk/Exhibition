@@ -1,0 +1,117 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  position: sticky;
+  justify-content: space-between;
+  height: fit-content;
+  margin: 0 0 58px 0;
+  overflow-x: hidden;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.headerTitle {
+  font-family: 'ethnocentric', serif;
+  font-size: 40px;
+  color: #FBE1E8;
+  height: fit-content;
+  text-decoration: none;
+}
+
+.headerSubtitle {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #FBE1E8;
+  height: fit-content;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.navLinks a {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 350;
+  font-size: 22px;
+  color: #FBE1E8;
+  text-decoration: none;
+}
+
+.navLinks a.about {
+  width: 62px;
+  height: 22px;
+}
+
+.navLinks a.projects {
+  width: 83px;
+  height: 22px;
+}
+
+.navLinks a.guest-book {
+  width: 123px;
+  height: 22px;
+}
+
+.navLinks a.information {
+  width: 121px;
+  height: 22px;
+}
+
+.navLinks a:hover {
+  font-weight: bold;
+}
+
+.navLinks a::after {
+  content: attr(title);
+  display: block;
+  font-weight: 700;
+  visibility: hidden;
+  height: 0;
+}
+
+.navLinks .active {
+  font-weight: bold;
+}
+
+.mobileHeaderTitle {
+  font-family: 'ethnocentric', serif;
+  font-size: 160%;
+  color: #FBE1E8;
+  height: fit-content;
+  text-decoration: none;
+}
+
+.mobileHeaderSubtitle {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: lighter;
+  font-size: 80%;
+  color: #FBE1E8;
+  height: fit-content;
+  white-space: pre-line;
+}
+
+.headerMenuBtn {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.mobileHeader {
+  display: flex;
+  align-items: flex-start;
+  position: sticky;
+  justify-content: space-between;
+  height: fit-content;
+  margin: 0 0 58px 0;
+}
+
+.headerMenuImg {
+  width: 30px;
+}
