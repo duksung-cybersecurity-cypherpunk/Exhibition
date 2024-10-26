@@ -1,5 +1,7 @@
 :root {
     --vh: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-focus-ring-color: transparent;
 }
 
 body {
@@ -14,11 +16,15 @@ body {
 
 .App {
     width: 100vw;
-    padding: 48px 43px;
+    padding: 55px 110px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     overflow-x: clip;
+}
+
+.AppBody {
+    padding: 0 137px
 }
 
 .MobileApp {
@@ -27,5 +33,6 @@ body {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    overflow-x: clip;
+    overflow-x: hidden;
+    position: relative;
 }

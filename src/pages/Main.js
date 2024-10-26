@@ -1,15 +1,14 @@
 import React, {useState} from "react";
 import "../styles/Main.css"
 import ImageInfinitySlider from "../assets/elements/ImageInfinitySlider";
-import Devider from "../assets/elements/Devider";
+import Devider from "../assets/elements/Divider";
 import GradientText from "../assets/elements/GradientText";
 import {NavLink} from "react-router-dom";
 import {BrowserView, isMobile, MobileView} from "react-device-detect";
 
 const Main = () => {
-    const [text, setText] = useState("메인입니다. Main")
     const mainImgList = ['Main']
-    const deviderOptions = {
+    const dividerOptions = {
         margin: {
             top: 66,
             right: 2,
@@ -37,10 +36,9 @@ const Main = () => {
 
     return (
         <>
-            {/*<Header />*/}
             <ImageInfinitySlider view={isMobile} imageList={mainImgList}/>
             <div className="mainContainer">
-                <Devider option={isMobile ? dividerMobileOptions : deviderOptions} />
+                <Devider option={isMobile ? dividerMobileOptions : dividerOptions} />
                 <div className={isMobile ? "mainMobilePhrase1" : "mainPhrase1"}>
                     <div>Embrace the</div>
                     &nbsp;
@@ -72,7 +70,6 @@ const Main = () => {
                     <img src={require("../assets/images/FindButton.png")} className={isMobile ? "findBoothMBtn" : "findBoothBtn"} />
                 </NavLink>
             </div>
-            {/*<Footer />*/}
         </>
     )
 }

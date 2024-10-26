@@ -1,0 +1,403 @@
+.projectPageTitleContainer, .developerHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectPageTitle, .developerTitle {
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 85px;
+    width: fit-content;
+}
+
+.projectPageDescription, .developerDescription {
+    font-size: 20px;
+    margin-top: 27px;
+    width: fit-content;
+}
+
+.projectPageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.teamRow1, .teamRow2 {
+    display: flex;
+    justify-content: center;
+}
+
+.teamRow1 {
+    margin-top: 87px;
+}
+
+.teamRow2 {
+    margin-top: 34px;
+}
+
+.teamName {
+    cursor: pointer;
+    font-size: 22px;
+    margin: 0 25px
+}
+
+.teamName.selected {
+    font-weight: 700;
+    color: #ED8EB5
+}
+
+.teamName:hover {
+    font-weight: 700;
+    color: #ED8EB5
+}
+
+.badge {
+    height: 23px
+}
+
+.projectContainer {
+    padding: 0 64px;
+    margin-top: 85px;
+}
+
+.projectHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.projectTitleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.mobileProjectTitleContainer {
+    display: flex;
+    align-items: flex-start;
+}
+
+.projectInfoTitleContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.projectTitleIcon {
+    max-width: 40px;
+    margin-right: 10px;
+}
+
+.mobileProjectTitleIcon {
+    max-width: 33px;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+
+.projectTitle {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    word-break: keep-all;
+}
+
+.mobileProjectTitle {
+    font-size: 180%;
+    font-weight: 600;
+    margin-bottom: 3px;
+    word-break: keep-all;
+}
+
+.projectTeamName {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.mobileProjectTeamName {
+    font-weight: 400;
+    font-size: 130%;
+    margin-left: 43px;
+}
+
+.projectInfo {
+    margin-top: 40px;
+}
+
+.projectInfoDashIcon {
+    max-width: 30px;
+}
+
+.projectInfoTriangleIcon {
+    max-width: 22px;
+}
+
+.projectInfoTitle {
+    font-size: 22px;
+    font-weight: 700;
+    color: #C2D1F1;
+    margin-left: 10px;
+}
+
+.projectInfoDescription {
+    white-space: pre-line;
+    line-height: 1.5;
+}
+
+.projectStack {
+    margin-bottom: 5px;
+}
+
+.projectStackTitle {
+    width: fit-content;
+    white-space: nowrap;
+}
+
+.badgeContainer {
+    display: flex;
+    margin-left: 5px;
+    flex-wrap: wrap;
+}
+
+.projectStack {
+    display: flex;
+    align-items: start;
+}
+
+.chatContainer {
+    display: flex;
+    margin-top: -15px;
+}
+
+.developerInfoContainer {
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.developerName {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: -8px;
+}
+
+.developerRole {
+    font-size: 13px;
+}
+
+.speechBubbleContainer {
+    position: relative;
+    display: flex;
+    max-width: 70%;
+    margin: 90px 0 0 35px;
+    z-index: 2;
+}
+
+.speechBubbleContainerEven {
+    position: relative;
+    display: flex;
+    max-width: 70%;
+    justify-content: end;
+    margin: 90px 35px 0 0;
+    z-index: 2;
+}
+
+.speechBubble {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    max-width: 38px;
+    max-height: 39px;
+    z-index: -1;
+}
+
+.speechBubbleEven {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    max-width: 38px;
+    max-height: 39px;
+    z-index: -1;
+}
+
+.developerImg {
+    max-width: 130px;
+}
+
+.mobileDeveloperImg {
+    max-width: 110px;
+}
+
+.mobileNeedResizeImg {
+    max-width: 130px;
+}
+
+.commentBoxOdd {
+    position: relative;
+    background: #585156;
+    height: fit-content;
+    border-radius: 17px;
+    padding: 20px;
+    margin: 1px 0 0 -8px;
+    white-space: pre-line;
+    z-index: 1;
+}
+
+.commentBoxEven {
+    position: relative;
+    background: #585156;
+    height: fit-content;
+    border-radius: 17px;
+    padding: 20px;
+    margin: 1px -8px 0 0;
+    white-space: pre-line;
+    z-index: 1;
+}
+
+.chatContainerEven {
+    display: flex;
+    justify-content: end;
+    margin-top: -15px;
+}
+
+.chatListContainer {
+    width: 82%;
+    margin-top: 100px;
+}
+
+.developerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.needResizeImg {
+    max-width: 160px;
+}
+
+.mobileTeamName {
+    font-size: 120%;
+    margin: 0 15px
+}
+
+.mobileTeamName.selected {
+    font-weight: 700;
+    color: #ED8EB5
+}
+
+.mobileTeamName:hover {
+    font-weight: 700;
+    color: #ED8EB5
+}
+
+.mobileProjectHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileProjectContainer {
+    padding: 0 25px;
+    margin-top: 85px;
+}
+
+.mobileDeveloperInfoContainer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.mobileDeveloperInfoContainerEven {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.mobileDevelopmentInfoWrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    gap: 5px;
+}
+
+.mobileDevelopmentInfoWrapperEven {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    gap: 5px;
+}
+
+.mobileChatContainer {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: end;
+    margin: 30px 0 30px 0;
+    z-index: 2;
+}
+
+.mobileChatContainerEven {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+.mobileSpeechBubbleContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 10px;
+    z-index: 2;
+}
+
+.mobileSpeechBubbleContainerEven {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin: 10px 10px 0 auto;
+    z-index: 2;
+}
+
+.mobileSpeechBubble {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    max-width: 38px;
+    max-height: 39px;
+    z-index: -1;
+}
+
+.mobileSpeechBubbleEven {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    max-width: 38px;
+    max-height: 39px;
+    z-index: -1;
+}
+
+.mobileCommentBoxOdd {
+    position: relative;
+    font-size: 15px;
+    background: #585156;
+    height: fit-content;
+    border-radius: 17px;
+    padding: 20px;
+    margin: 15px auto 0 0;
+    white-space: pre-line;
+    z-index: 1;
+}
+
+.mobileChatListContainer {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.mobileCommentBoxEven {
+    position: relative;
+    font-size: 15px;
+    background: #585156;
+    height: fit-content;
+    border-radius: 17px;
+    padding: 20px;
+    margin: 15px 0 0 0;
+    white-space: pre-line;
+    z-index: 1;
+}
