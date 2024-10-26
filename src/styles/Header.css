@@ -5,6 +5,7 @@
   justify-content: space-between;
   height: fit-content;
   margin: 0 0 58px 0;
+  overflow-x: hidden;
 }
 
 .logo {
@@ -77,4 +78,40 @@
 
 .navLinks .active {
   font-weight: bold;
+}
+
+.mobileHeaderTitle {
+  font-family: 'ethnocentric', serif;
+  font-size: 160%;
+  color: #FBE1E8;
+  height: fit-content;
+  text-decoration: none;
+}
+
+.mobileHeaderSubtitle {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: lighter;
+  font-size: 80%;
+  color: #FBE1E8;
+  height: fit-content;
+  white-space: pre-line;
+}
+
+.headerMenuBtn {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.mobileHeader {
+  display: flex;
+  align-items: flex-start;
+  position: sticky;
+  justify-content: space-between;
+  height: fit-content;
+  margin: 0 0 58px 0;
+}
+
+.headerMenuImg {
+  width: 30px;
 }
