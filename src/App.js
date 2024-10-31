@@ -40,12 +40,12 @@ function App() {
 
     return (
         <div className={isMobile? "MobileApp" : "App"}>
-            <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 { isMobile ? <MobileMenuBar isVisible={isMobileMenuOn} headerHandler={handleMobileMenu} /> : <></> }
                 <Header headerHandler={handleMobileMenu} />
                 <div className={isMobile? "MobileAppBody" : "AppBody"}>
                     <Routes>
-                        <Route path="/" element={<Main />}/>
+                        <Route exact path="/" element={<Main />}/>
                         <Route path="/about" element={<About />}/>
                         <Route path="/projects" element={<Projects />}/>
                         <Route path="/guest" element={<Guestbook />}/>
