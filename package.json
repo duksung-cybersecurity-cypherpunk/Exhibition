@@ -19,7 +19,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://duksung-cybersecurity-cypherpunk.github.io/",
+  "homepage": "https://duksung-cybersecurity-cypherpunk.github.io/Exhibition",
   "eslintConfig": {
     "extends": [
       "react-app",
