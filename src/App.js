@@ -12,6 +12,8 @@ import Footer from "./components/Footer";
 import MobileMenuBar from "./components/MobileMenuBar";
 
 function App() {
+    console.log(process.env.TEST)
+    console.log(process.env.REACT_APP_TEST)
     const [isMobileMenuOn, setIsMobileMenuOn] = useState(false)
     function setScreenSize() {
         let vh = window.innerHeight * 0.01;

@@ -29,6 +29,7 @@ jobs:
           REACT_APP_FB_SENDER_ID: ${{ secrets.REACT_APP_FB_SENDER_ID }}
           REACT_APP_FB_APP_ID: ${{ secrets.REACT_APP_FB_APP_ID }}
           REACT_APP_PUBLIC_URL: ${{ secrets.REACT_APP_PUBLIC_URL }}
+          REACT_APP_TEST: ${{ secrets.REACT_APP_TEST }}
         run: npm run build
 
       - name: Deploy to GitHub Pages
