@@ -45,11 +45,11 @@ function App() {
                 <Header headerHandler={handleMobileMenu} />
                 <div className={isMobile? "MobileAppBody" : "AppBody"}>
                     <Routes>
-                        <Route path="/Exhibition/" element={<Main />}/>
-                        <Route path="/Exhibition/about" element={<About />}/>
-                        <Route path="/Exhibition/projects" element={<Projects />}/>
-                        <Route path="/Exhibition/guest" element={<Guestbook />}/>
-                        <Route path="/Exhibition/info" element={<Info />}/>
+                        <Route path="/" element={<Main />}/>
+                        <Route path="/about" element={<About />}/>
+                        <Route path="/projects" element={<Projects />}/>
+                        <Route path="/guest" element={<Guestbook />}/>
+                        <Route path="/info" element={<Info />}/>
                     </Routes>
                 </div>
                 <Footer />
