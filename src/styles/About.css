@@ -1,17 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 .about {
     align-items: center;
 }
 
-.poster img {
-    width: 350.25px;
-    height: 503px;
+.poster {
+    width: 25vw;
+    margin: 0 5vw 0 0;
 }
 
 .content {
@@ -21,38 +14,27 @@
 
 .contentSection {
     display: flex;
-    align-items: flex-start;
-    gap: 109.75px;
+    justify-content: center;
+    align-items: center;
     margin-top: 80px;
-    margin-left: 109.5px;
 }
 
 .contentText {
-    margin-top: 91px;
     flex-direction: column;
-    width: 550px;
-    height: 412px;
-    margin-top: 91px;
 }
 
 .title {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
-    width: 420px;
-    height: 24px;
-    padding-top: 0px;
-    line-height: 24px;
-
+    width: fit-content;
+    height: fit-content;
 }
 
 .subtitle {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 40px;
-    font-weight: medium;
-    line-height: 40px;
+    font-weight: 600;
     color: #ED8EB5;
-    width: 235px;
-    height: 40px;
     margin-top: 10px;
 }
 
@@ -62,15 +44,11 @@
 
 
 .description {
-    font-family: 'Noto Sans KR', sans-serif;
+    max-width: 510px;
     font-size: 20px;
-    line-height: 26px;
     color: #FBE1E8;
-    width: 550px;
-    min-height: 187px;
-    display: flex;
     margin-top: 60px;
-    display: block;
+    white-space: pre-line;
 }
 
 .underline1 {
@@ -87,25 +65,15 @@
     margin-top: 35px;
 }
 
-.underline3 {
-    height: 1px;
-    background-color: #FBE1E8;
-    margin: 0 auto;
-    margin-top: 57px;
-    width: 996px;
-
-}
-
 .professorSection {
     margin-top: 70px;
     text-align: center;
 }
 
 .Group1356 {
-    width: 494px;
-    max-height: 85px;
-    margin-left: 393px;
-    margin-right: 393px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
@@ -114,11 +82,7 @@
 
 .Group1356Title {
     font-size: 40px;
-    font-weight: bold;
-    width: 361px;
-    height: 64px;
-    text-align: center;
-    margin-left: 66.5px;
+    font-weight: 700;
 }
 
 .Group1356Subtitle {
@@ -130,87 +94,80 @@
 
 .professorInfoCover {
     position: relative;
-    max-width: 1100px;
-    max-height: 444px;
-    margin-left: 90px;
-    position: relative; /* 전체 섹션을 고정 */
-    overflow: hidden;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
-.professorInfoCover img {
-    width: 1100px;
-    height: 444px;
-}
-
-.professorOverlayText {
+.professorOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: flex-start;
-    margin-top: 42px;
-    max-width: 1033px;
-    max-height: 360px;
-    margin-left: 33.5px;
-    margin: 0 auto;
-    position: absolute;
-    left: 40px;
-    top: 40px;
+    justify-content: center;
+    padding: 2.5vw 1.2vw 2vw 2vw;
+    box-sizing: border-box;
+    text-align: center;
 }
 
+.professorImage {
+    width: 10vw;
+    max-width: 150px;
+}
 
-.professorImage img {
-    margin-top: 0px;
-    max-width: 180px;
-    max-height: 180px;
-    margin: 0;
+.professorImageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 1.2vw 0 0;
 }
 
 .pageIndicator {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    font-size: 0.9vw;
+    color: rgba(255,255,255,0.8);
+    bottom: 2.5vw;
+    right: 1.3vw;
 }
 
 .professorText {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-height: 100%;
+    overflow-y: scroll;
 }
 
 .professorTextName {
-    margin-left: 34px;
-    width: 166px;
-    height: 28px;
+    font-size: 1.5vw;
+    width: fit-content;
+    height: fit-content;
     text-align: left;
-    font-size: 28px;
-    line-height: 28px;
 }
 
 .professorTextContent {
-    margin-left: 34px;
-    margin-top: 20px;
-    width: 819px;
-    height: 312px;
+    margin-top: 1vw;
     text-align: left;
-    font-size: 18px;
+    font-size: 0.9vw;
     font-weight: 350;
-    line-height: 24px;
-
+    line-height: 2vw;
+    overflow-y: scroll;
 }
 
 .pagination {
     margin-top: 28px;
 }
 
-.graduationCommittee {}
-
 .committeeSection {
-    width: 501px;
-    height: 143px;
-    margin-left: 390px;
-    margin-top: 70px;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    align-items: center;
+    margin: 50px 0 0 0;
 }
 
 .committeeTitle {
@@ -224,50 +181,37 @@
 .committeeSubtitle {
     margin-top: 30px;
     font-size: 20px;
-    line-height: 22px;
-    width: 501px;
-    height: 31px;
 }
 
 .committeeRole {
     margin-top: 105px;
-    width: 460.56px;
-    height: 95px;
-    margin-left: 412px;
+    width: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    gap: 181.44px;
+    gap: 182px;
 }
 
 .committeeExecutive {
-    width: 139.56px;
-    height: 95px;
+    width: 140px;
     text-align: center;
-    position: relative;
 }
 
 .position1 {
     margin-bottom: 16px;
     font-size: 30px;
-    line-height: 28px;
 }
 
 .name1 {
-    margin-top: 40px;
     font-size: 28px;
 }
 
 .position2 {
-    margin-bottom: 41px;
     font-size: 30px;
-    line-height: 28px;
 }
 
 .position3 {
     font-size: 30px;
-    line-height: 28px;
-    margin-bottom: 37px;
-    gap: 16px;
     flex-direction: row;
     align-items: center;
     text-align: center;
@@ -275,121 +219,39 @@
 
 
 .name2 {
-    margin-top: 24px;
     font-size: 28px;
+    margin-bottom: 24px;
 }
 
 .nameBox {
-    width: 124px;
-    height: 36px;
     margin-bottom: 24px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 3px;
-    display: inline-flex;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: start;
 }
 
 .name3KR {
-    min-width: 79px;
-    height: 36px;
     font-size: 28px;
-    line-height: 28px;
     text-align: center;
+    margin-right: 3px;
 }
 
-.name3En {
-    width: 42px;
-    min-height: 36px;
+.name3EN {
     font-size: 13px;
     font-weight: 350;
-    bottom: 0px;
-    align-items: flex-end;
-    line-height: 28px;
-}
-
-.committeeExecutive::after {
-    content: '';
-    position: absolute;
-    top: 40px;
-    transform: translateX(-50%);
-    width: 139.56px;
-    border-bottom: 2px solid #FBE1E8;
+    margin-bottom: 3px;
 }
 
 .committeOrganization {
-    margin-top: 67px;
-    margin-left: 185px;
     display: flex;
-    flex-direction: row;
-    gap: 110px;
     text-align: center;
-    position: relative;
+    justify-content: center;
+    gap: 5vw;
 }
 
-.committeeOperations {}
-
-.committeeOperations::after {
-    content: '';
-    position: absolute;
-    top: 40px;
-    transform: translateX(-50%);
-    width: 139.56px;
-    border-bottom: 2px solid #FBE1E8;
-}
-
-.committeePublicrelations {}
-
-.committeePublicrelations::after {
-    content: '';
-    position: absolute;
-    top: 40px;
-    transform: translateX(-50%);
-    width: 139.56px;
-    border-bottom: 2px solid #FBE1E8;
-}
-
-.committeeAdministration {}
-
-.committeeAdministration::after {
-    content: '';
-    position: absolute;
-    top: 40px;
-    transform: translateX(-50%);
-    width: 139.56px;
-    border-bottom: 2px solid #FBE1E8;
-}
-
-.committeeOnlineexhibition {
-    text-align: center;
-
-}
-
-.committeeOnlineexhibition::after {
-    content: '';
-    position: absolute;
-    top: 37px;
-    transform: translateX(-50%);
-    width: 161px;
-    border-bottom: 2px solid #FBE1E8;
-}
-
-.detailColumn1 {
-    width: 139.56px;
-    height: 252px;
-
-}
-
-.detailColumn2 {
-    width: 139.56px;
-    height: 304px;
-
-}
-
-.detailColumn3 {
-    width: 161px;
-    height: 257px;
+.detailColumn {
+    padding: 0 20px;
+    margin: 0 auto;
 }
 
 .h3 {
@@ -410,20 +272,196 @@
     line-height: 28px;
 }
 
+
 .fade-enter {
     opacity: 0;
+    transform: translateX(100%);
 }
 
 .fade-enter-active {
     opacity: 1;
-    transition: opacity 500ms ease-in-out;
+    transform: translateX(0);
+    transition: opacity .6s ease-in-out, transform .6s ease;
 }
 
 .fade-exit {
-    opacity: 1;
+    display: none;
 }
 
-.fade-exit-active {
-    opacity: 0;
-    transition: opacity 500ms ease-in-out;
+.teamLeader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.point, .hiddenPoint {
+    width: 2px;
+    height: 2px;
+    padding: 2px;
+    margin: 3px;
+    box-shadow: 0 0 4px 2px #ED8EB5;
+    border-radius: 50%;
+    background: #ED8EB5;
+}
+
+.hiddenPoint {
+    visibility: hidden;
+}
+
+.contentSectionM .poster {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.contentSectionM .title {
+    font-size: 15px;
+}
+
+.contentSectionM .subtitle {
+    margin: 0;
+    line-height: 40px;
+}
+
+.contentSectionM .description {
+    font-size: 18px;
+    margin-top: 45px;
+}
+
+.contentSectionM .highlight{
+    font-size: 18px;
+}
+
+.professorSectionM .Group1356Title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.professorSectionM .Group1356Subtitle {
+    font-size: 18px;
+    text-align: center;
+}
+
+.professorSectionM {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.professorSectionM .professorTextName {
+    font-size: 2.5vw;
+    width: fit-content;
+    height: fit-content;
+    text-align: left;
+}
+
+.professorSectionM .professorTextContent {
+    margin-top: 1vw;
+    text-align: left;
+    font-size: 1.6vw;
+    font-weight: 350;
+    line-height: 2.3vw;
+    overflow-y: scroll;
+}
+
+.professorSectionM .professorImage {
+    width: 11vw;
+    max-width: 150px;
+    border-radius: 5%;
+}
+
+.professorSectionM .professorImageContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 1.2vw 0 0;
+}
+
+.graduationCommitteeM {
+    margin: 30px 0;
+}
+
+.graduationCommitteeM .committeeTitle {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 44px;
+    width: 501px;
+    height: 82px;
+}
+
+.graduationCommitteeM .committeeSubtitle {
+    font-size: 18px;
+    margin: 15px 0 0 0;
+}
+
+.graduationCommitteeM .committeeRole {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    gap: 60px;
+}
+
+.graduationCommitteeM .position1 {
+    margin-bottom: 16px;
+    font-size: 19px;
+}
+
+.graduationCommitteeM .name1 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.graduationCommitteeM .committeeExecutive {
+    width: 120px;
+    text-align: center;
+}
+
+.graduationCommitteeM .position2 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+    width: fit-content;
+    white-space: pre-line;
+}
+
+.graduationCommitteeM .position3 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 600;
+    width: fit-content;
+    white-space: pre-line;
+}
+
+.graduationCommitteeM .name2 {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 3px 6px;
+}
+
+.graduationCommitteeM .committeOrganization {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.graduationCommitteeM .detailColumn {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.graduationCommitteeM .name3KR {
+    font-size: 15px;
+}
+
+.nameBoxContainer {
+    display: flex;
+    margin: 0 0 0 8px;
+}
+
+.nameBoxContainer .nameBox {
+    margin: 2px 8px 2px 0;
 }
