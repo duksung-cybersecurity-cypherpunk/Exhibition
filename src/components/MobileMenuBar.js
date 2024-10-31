@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import "../../styles/MobileMenuBar.css"
+import "../styles/MobileMenuBar.css"
 import {Link} from "react-router-dom";
 
 const MobileMenuBar = ({isVisible, headerHandler}) => {
@@ -18,7 +18,7 @@ const MobileMenuBar = ({isVisible, headerHandler}) => {
         <div className={`MobileMenuBarContainer ${visibility}`}>
             <div className="SideBar">
                 <div onClick={() => headerHandler(false)} className="mobileHeaderOffBtn">
-                    <img src={require("../../assets/images/Icon/HeaderMenuOut.png")} alt="사이드바 닫기"/>
+                    <img src={require("../assets/images/Icon/HeaderMenuOut.png")} alt="사이드바 닫기"/>
                 </div>
                 <div className="menuContainer">
                     <Link to="/Exhibition/" className="mobileHeaderMenu" onClick={selectPageHandler}> Main </Link>

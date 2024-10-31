@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import '../styles/About.css'
 import Button from "../components/AboutButton";
 import {CSSTransition, TransitionGroup} from 'react-transition-group';
-import Divider from "../assets/elements/Divider";
+import Divider from "../components/Divider";
 import {isMobile} from "react-device-detect";
 
 const About = () => {
@@ -144,7 +144,7 @@ const About = () => {
                     >
                         <div className="professorInfoCover">
                             <img className="professorImageContainer" src={require('../assets/images/Group 1540.png')}
-                                 alt="Cover Image"/>
+                                 alt="Cover"/>
                             <div className="professorOverlay">
                                 <div className="professorImageContainer">
                                     <img src={content.professorImage} alt={content.professorName}

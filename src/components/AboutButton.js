@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/AboutButton.css';
 import PrevIcon from "../assets/images/Icon/Polygon 4.png";
 import NextIcon from "../assets/images/Icon/Polygon 3.png";

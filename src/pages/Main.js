@@ -1,8 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import "../styles/Main.css"
-import ImageInfinitySlider from "../assets/elements/ImageInfinitySlider";
-import Devider from "../assets/elements/Divider";
-import GradientText from "../assets/elements/GradientText";
+import ImageInfinitySlider from "../components/ImageInfinitySlider";
+import Devider from "../components/Divider";
+import GradientText from "../components/GradientText";
 import {NavLink} from "react-router-dom";
 import {BrowserView, isMobile, MobileView} from "react-device-detect";
 
@@ -64,10 +64,10 @@ const Main = () => {
                     </div>
                 </MobileView>
                 <div className="ticketContainer">
-                    <img src={require("../assets/images/Ticket.png")} className={isMobile ? "ticketMobileImg" : "ticketImg"} />
+                    <img src={require("../assets/images/Ticket.png")} className={isMobile ? "ticketMobileImg" : "ticketImg"} alt="ticket"/>
                 </div>
                 <NavLink to="/Info" className="findBtnLink">
-                    <img src={require("../assets/images/FindButton.png")} className={isMobile ? "findBoothMBtn" : "findBoothBtn"} />
+                    <img src={require("../assets/images/FindButton.png")} className={isMobile ? "findBoothMBtn" : "findBoothBtn"} alt="findButton"/>
                 </NavLink>
             </div>
         </>

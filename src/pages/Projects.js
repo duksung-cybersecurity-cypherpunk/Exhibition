@@ -3,7 +3,7 @@ import teamDataList from "../assets/data/team.json"
 import "../styles/Projects.css"
 import Project from "../components/Project";
 import Developer from "../components/Developer";
-import Divider from "../assets/elements/Divider";
+import Divider from "../components/Divider";
 import {isMobile} from "react-device-detect";
 
 const Projects = () => {

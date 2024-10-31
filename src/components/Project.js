@@ -14,13 +14,13 @@ const Project = ({teamId}) => {
     useEffect(() => {
         setTeam(teams[teamId])
         setProject(projects[teamId])
-    }, [teamId]);
+    }, [teamId, projects, teams]);
 
     return (
         <div className={ isMobile ? "mobileProjectContainer" : "projectContainer" }>
             <div className={ isMobile ? "mobileProjectHeader" : "projectHeader" }>
                 <div className={ isMobile ? "mobileProjectTitleContainer" : "projectTitleContainer" }>
-                    <img src={require("../assets/images/Icon/TitleIconPink.png")}  className={ isMobile ? "mobileProjectTitleIcon" : "projectTitleIcon" }/>
+                    <img src={require("../assets/images/Icon/TitleIconPink.png")}  className={ isMobile ? "mobileProjectTitleIcon" : "projectTitleIcon" } alt="titleIcon"/>
                     <div className={ isMobile ? "mobileProjectTitle" : "projectTitle" }>{project.title}</div>
                 </div>
                 <div className={ isMobile ? "mobileProjectTeamName" : "projectTeamName" }>{team.name}</div>
@@ -28,21 +28,21 @@ const Project = ({teamId}) => {
             <div className="projectInfoContainer">
                 <div className="projectInfo">
                     <div className="projectInfoTitleContainer">
-                        <img src={require("../assets/images/Icon/TitleIconBlue.png")} className="projectInfoDashIcon"/>
+                        <img src={require("../assets/images/Icon/TitleIconBlue.png")} className="projectInfoDashIcon" alt="projectIcon"/>
                         <div className="projectInfoTitle">작품 설명</div>
                     </div>
                     <div className="projectInfoDescription">{project.description}</div>
                 </div>
                 <div className="projectInfo">
                     <div className="projectInfoTitleContainer">
-                        <img src={require("../assets/images/Icon/TitleIconBlue.png")} className="projectInfoDashIcon"/>
+                        <img src={require("../assets/images/Icon/TitleIconBlue.png")} className="projectInfoDashIcon" alt="projectIcon"/>
                         <div className="projectInfoTitle">기획 의도</div>
                     </div>
                     <div className="projectInfoDescription">{project.intention}</div>
                 </div>
                 <div className="projectInfo">
                     <div className="projectInfoTitleContainer">
-                        <img src={require("../assets/images/Icon/TriangleBlue.png")} className="projectInfoTriangleIcon"/>
+                        <img src={require("../assets/images/Icon/TriangleBlue.png")} className="projectInfoTriangleIcon" alt="projectIcon"/>
                         <div className="projectInfoTitle">개발 스택</div>
                     </div>
                     <div className="projectStackContainer">

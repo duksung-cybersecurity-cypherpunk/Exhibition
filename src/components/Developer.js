@@ -8,7 +8,7 @@ const Developer = ({teamId}) => {
 
     useEffect(() => {
         setDevelopers(developerList[teamId])
-    }, [teamId]);
+    }, [teamId, developerList]);
 
     const devImgClassName = (needResize) => {
         if (isMobile && needResize) {
@@ -38,7 +38,7 @@ const Developer = ({teamId}) => {
                                     ? <div className="mobileChatContainer" key={idx}>
                                         <div className="mobileDeveloperInfoContainer">
                                             <img src={require(`../assets/images/developers/${developer.initial}.png`)}
-                                                 className={devImgClassName(developer.needResize)}/>
+                                                 className={devImgClassName(developer.needResize)} alt="developer"/>
                                             <div className="mobileDevelopmentInfoWrapper">
                                                 <div className="developerName">{developer.name}</div>
                                                 <div className="developerRole">{developer.role}</div>
@@ -46,7 +46,7 @@ const Developer = ({teamId}) => {
                                         </div>
                                         <div className="mobileSpeechBubbleContainer">
                                             <img src={require("../assets/images/Icon/MSpeechBubble.png")}
-                                                 className="mobileSpeechBubble"/>
+                                                 className="mobileSpeechBubble" alt="speechBubble"/>
                                             <div className="mobileCommentBoxOdd">
                                                 {developer.comment}
                                             </div>
@@ -55,13 +55,13 @@ const Developer = ({teamId}) => {
                                     : <div className="chatContainer" key={idx}>
                                         <div className="developerInfoContainer">
                                             <img src={require(`../assets/images/developers/${developer.initial}.png`)}
-                                                 className={devImgClassName(developer.needResize)}/>
+                                                 className={devImgClassName(developer.needResize)} alt="developer2"/>
                                             <div className="developerName">{developer.name}</div>
                                             <div className="developerRole">{developer.role}</div>
                                         </div>
                                         <div className="speechBubbleContainer">
                                             <img src={require("../assets/images/Icon/SpeechBubbleLeft.png")}
-                                                 className="speechBubble"/>
+                                                 className="speechBubble" alt="speechBubble"/>
                                             <div className="commentBoxOdd">
                                                 {developer.comment}
                                             </div>
@@ -79,11 +79,11 @@ const Developer = ({teamId}) => {
                                                 <div className="developerRole">{developer.role}</div>
                                             </div>
                                             <img src={require(`../assets/images/developers/${developer.initial}.png`)}
-                                                 className={devImgClassName(developer.needResize)}/>
+                                                 className={devImgClassName(developer.needResize)} alt="developer3"/>
                                         </div>
                                         <div className="mobileSpeechBubbleContainerEven">
                                             <img src={require("../assets/images/Icon/MSpeechBubble.png")}
-                                                 className="mobileSpeechBubbleEven"/>
+                                                 className="mobileSpeechBubbleEven" alt="speechBubble"/>
                                             <div className="mobileCommentBoxEven">
                                                 {developer.comment}
                                             </div>
@@ -95,11 +95,11 @@ const Developer = ({teamId}) => {
                                                 {developer.comment}
                                             </div>
                                             <img src={require("../assets/images/Icon/SpeechBubbleRight.png")}
-                                                 className="speechBubbleEven"/>
+                                                 className="speechBubbleEven" alt="developer4"/>
                                         </div>
                                         <div className="developerInfoContainer">
                                             <img src={require(`../assets/images/developers/${developer.initial}.png`)}
-                                                 className={devImgClassName(developer.needResize)}/>
+                                                 className={devImgClassName(developer.needResize)} alt="speechBubble"/>
                                             <div className="developerName">{developer.name}</div>
                                             <div className="developerRole">{developer.role}</div>
                                         </div>
