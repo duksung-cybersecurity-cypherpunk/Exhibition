@@ -1,10 +1,12 @@
 import React, {useState} from 'react';
 import '../styles/Header.css';
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import {isMobile} from "react-device-detect";
 
 const Header = ({headerHandler}) => {
-    const [selectedLink, setSelectedLink] = useState('');
+    const location = useLocation()
+    const path = location.pathname.split("/")[1]
+    const [selectedLink, setSelectedLink] = useState(path);
 
     const handleLinkClick = (link) => {
         setSelectedLink(link);
@@ -41,13 +43,13 @@ const Header = ({headerHandler}) => {
                         </Link>
 
                         <Link to="/guest" title="Guest Book"
-                              className={`navLink ${selectedLink === 'guest-book' ? 'active' : ''}`}
+                              className={`navLink ${selectedLink === 'guest' ? 'active' : ''}`}
                               onClick={() => handleLinkClick('guest-book')}>
                             Guest Book
                         </Link>
 
                         <Link to="/info" title="Information"
-                              className={`navLink ${selectedLink === 'information' ? 'active' : ''}`}
+                              className={`navLink ${selectedLink === 'info' ? 'active' : ''}`}
                               onClick={() => handleLinkClick('information')}>
                             Information
                         </Link>
