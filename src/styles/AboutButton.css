@@ -1,0 +1,16 @@
+.prev img {
+    width: 25px;
+    height: 25px;
+}
+
+.next img {
+    width: 25px;
+    height: 25px;
+}
+
+.pagination button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}

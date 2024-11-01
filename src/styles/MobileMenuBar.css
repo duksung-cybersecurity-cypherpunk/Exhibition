@@ -1,0 +1,53 @@
+.MobileMenuBarContainer {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden; /* 수평 스크롤 강제 제거 */
+    overflow-y: hidden; /* 필요에 따라 수직 스크롤도 제거 */
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: transform .5s ease-in-out;
+}
+
+.MobileMenuBarContainer.hide {
+    transform: translateX(100%);
+}
+
+.MobileMenuBarContainer.show {
+    transform: translateX(0);
+}
+
+.SideBar {
+    background: #131417;
+    box-shadow: 0 0 10px #fbe1e8;
+    width: 70%;
+    padding: 20px;
+}
+
+.mobileHeaderMenu {
+    font-family: ethnocentric, serif;
+    margin-bottom: 30px;
+    font-size: 170%;
+    color: #fbe1e8;
+    text-decoration: none;
+}
+
+.mobileHeaderMenu:hover {
+    text-shadow: 0 0 5px #ED8EB5;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.mobileHeaderOffBtn {
+    display: flex;
+    justify-content: flex-end;
+}

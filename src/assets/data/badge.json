@@ -1,0 +1,222 @@
+{
+  "VSCODE": {
+    "name": "Visual_Studio_Code",
+    "color": "0078d7",
+    "badge": "visual-studio-code"
+  },
+  "JAVA": {
+    "name": "Java",
+    "color": "ED8B00",
+    "badge": "openjdk"
+  },
+  "PYTHON": {
+    "name": "Python",
+    "color": "3670A0",
+    "badge": "python"
+  },
+  "UNITY": {
+    "name": "Unity",
+    "color": "000000",
+    "badge": "unity"
+  },
+  "RASPBERRYPI": {
+    "name": "Raspberry_Pi",
+    "color": "C51A4A",
+    "badge": "Raspberry-Pi"
+  },
+  "REACT_NATIVE": {
+    "name": "React_Native",
+    "color": "61DAFB",
+    "badge": "react"
+  },
+  "ANDROID_STUDIO": {
+    "name": "Android_Studio",
+    "color": "346ac1",
+    "badge": "androidstudio"
+  },
+  "KOTLIN": {
+    "name": "Kotlin",
+    "color": "7F52FF",
+    "badge": "kotlin"
+  },
+  "PYCHARM": {
+    "name": "Pycharm",
+    "color": "000000",
+    "badge": "pycharm"
+  },
+  "JAVASCRIPT": {
+    "name": "Javascript",
+    "color": "F7DF1E",
+    "badge": "javascript"
+  },
+  "INTELLIJ": {
+    "name": "IntelliJ",
+    "color": "000000",
+    "badge": "intellijidea"
+  },
+  "MYSQL": {
+    "name": "MySQL",
+    "color": "4479A1",
+    "badge": "mysql"
+  },
+  "HTML": {
+    "name": "HTML",
+    "color": "E34F26",
+    "badge": "html5"
+  },
+  "GIT": {
+    "name": "Git",
+    "color": "F05032",
+    "badge": "git"
+  },
+  "DART": {
+    "name": "Dart",
+    "color": "0175C2",
+    "badge": "dart"
+  },
+  "SPRING_BOOT": {
+    "name": "Spring_Boot",
+    "color": "6DB33F",
+    "badge": "springboot"
+  },
+  "JUPYTER_NOTEBOOK": {
+    "name": "Jupyter_Notebook",
+    "color": "F37626",
+    "badge": "jupyter"
+  },
+  "FLUTTER": {
+    "name": "Flutter",
+    "color": "02569B",
+    "badge": "flutter"
+  },
+  "FIGMA": {
+    "name": "Figma",
+    "color": "F24E1E",
+    "badge": "figma"
+  },
+  "RASPBERRYPI_CAMERA": {
+    "name": "Raspberry_Pi_Camera",
+    "color": "C51A4A",
+    "badge": "Raspberry-Pi"
+  },
+  "SOLIDITY": {
+    "name": "Solidity",
+    "color": "363636",
+    "badge": "solidity"
+  },
+  "CHROMADB": {
+    "name": "ChromaDB",
+    "color": "000000",
+    "badge": "ChromaDB"
+  },
+  "REACT": {
+    "name": "React",
+    "color": "61DAFB",
+    "badge": "react"
+  },
+  "VISUAL_STUDIO": {
+    "name": "Visual_Studio",
+    "color": "5C2D91",
+    "badge": "visual-studio"
+  },
+  "CSS": {
+    "name": "CSS",
+    "color": "1572B6",
+    "badge": "css3"
+  },
+  "NGINX": {
+    "name": "Nginx",
+    "color": "009639",
+    "badge": "nginx"
+  },
+  "AWS_RDS": {
+    "name": "AWS_RDS",
+    "color": "527FFF",
+    "badge": "amazonrds"
+  },
+  "ANACONDA": {
+    "name": "Anaconda",
+    "color": "44A833",
+    "badge": "anaconda"
+  },
+  "FLASK": {
+    "name": "Flask",
+    "color": "000000",
+    "badge": "flask"
+  },
+  "RC카": {
+    "name": "RC_Car",
+    "color": "000000",
+    "badge": "rc-car"
+  },
+  "GITHUB": {
+    "name": "Github",
+    "color": "181717",
+    "badge": "github"
+  },
+  "COLAB": {
+    "name": "Colab",
+    "color": "F9AB00",
+    "badge": "googlecolab"
+  },
+  "MONGODB": {
+    "name": "MongoDB",
+    "color": "47A248",
+    "badge": "mongodb"
+  },
+  "SQLITE": {
+    "name": "SQLite",
+    "color": "003B57",
+    "badge": "sqlite"
+  },
+  "NODE.JS": {
+    "name": "Node.js",
+    "color": "44A833",
+    "badge": "nodedotjs"
+  },
+  "AWS": {
+    "name": "AWS",
+    "color": "232F3E",
+    "badge": "amazonwebservices"
+  },
+  "DJANGO": {
+    "name": "Django",
+    "color": "092E20",
+    "badge": "django"
+  },
+  "DOCKER": {
+    "name": "Docker",
+    "color": "2496ED",
+    "badge": "docker"
+  },
+  "PYTORCH": {
+    "name": "Pytorch",
+    "color": "EE4C2C",
+    "badge": "pytorch"
+  },
+  "ETHEREUM_SEPOLIA": {
+    "name": "Ethereum_Sepolia",
+    "color": "3C3C3D",
+    "badge": "ethereum"
+  },
+  "POSTGRESQL": {
+    "name": "PostgreSql",
+    "color": "4169E1",
+    "badge": "postgresql"
+  },
+  "TRANSFORMER_MODEL": {
+    "name": "Transformer",
+    "color": "000000",
+    "badge": "transformer"
+  },
+  "LLAMA2": {
+    "name": "Llama2",
+    "color": "0467DF",
+    "badge": "ollama"
+  },
+  "LLAMA3": {
+    "name": "Llama3",
+    "color": "0467DF",
+    "badge": "ollama"
+  }
+}
