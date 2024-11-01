@@ -56,7 +56,6 @@ function App() {
                 </div>
                 <Footer />
             </BrowserRouter>
-            <Guestbook />
         </div>
     );
 }
