@@ -10,11 +10,11 @@ import React, {useEffect, useState} from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MobileMenuBar from "./components/MobileMenuBar";
+import { NavermapsProvider } from 'react-naver-maps';
 
 function App() {
-    console.log(process.env.TEST)
-    console.log(process.env.REACT_APP_TEST)
     const [isMobileMenuOn, setIsMobileMenuOn] = useState(false)
+    const key = process.env.REACT_APP_NAVER_KEY
     function setScreenSize() {
         let vh = window.innerHeight * 0.01;
         document.documentElement.style.setProperty("--vh", `${vh}px`);
@@ -41,22 +41,26 @@ function App() {
     }
 
     return (
-        <div className={isMobile? "MobileApp" : "App"}>
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
-                { isMobile ? <MobileMenuBar isVisible={isMobileMenuOn} headerHandler={handleMobileMenu} /> : <></> }
-                <Header headerHandler={handleMobileMenu} />
-                <div className={isMobile? "MobileAppBody" : "AppBody"}>
-                    <Routes>
-                        <Route exact path="/" element={<Main />}/>
-                        <Route path="/about" element={<About />}/>
-                        <Route path="/projects" element={<Projects />}/>
-                        <Route path="/guest" element={<Guestbook />}/>
-                        <Route path="/info" element={<Info />}/>
-                    </Routes>
-                </div>
-                <Footer />
-            </BrowserRouter>
-        </div>
+        <NavermapsProvider
+            ncpClientId={key}
+        >
+            <div className={isMobile? "MobileApp" : "App"}>
+                <BrowserRouter basename={process.env.PUBLIC_URL}>
+                    { isMobile ? <MobileMenuBar isVisible={isMobileMenuOn} headerHandler={handleMobileMenu} /> : <></> }
+                    <Header headerHandler={handleMobileMenu} />
+                    <div className={isMobile? "MobileAppBody" : "AppBody"}>
+                        <Routes>
+                            <Route exact path="/" element={<Main />}/>
+                            <Route path="/about" element={<About />}/>
+                            <Route path="/projects" element={<Projects />}/>
+                            <Route path="/guest" element={<Guestbook />}/>
+                            <Route path="/info" element={<Info />}/>
+                        </Routes>
+                    </div>
+                    <Footer />
+                </BrowserRouter>
+            </div>
+        </NavermapsProvider>
     );
 }
 

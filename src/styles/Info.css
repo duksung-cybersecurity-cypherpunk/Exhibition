@@ -1,0 +1,309 @@
+.title {
+    display: flex;
+    width: 100%;
+    font-size: 40px;
+    justify-content: center;
+    margin: 0 0 50px 0;
+}
+
+.informationSection {
+    width: 100%;
+}
+.infoImage {
+    max-width: 430px;
+}
+.infoImage2 {
+    max-width: 430px;
+    width: 100%;
+    margin: 0 0 0 -9px;
+}
+.connectLine {
+    max-width: 110px;
+    max-height: 65px;
+    width: 100%;
+    height: auto;
+    margin: 0 0 0 -9px;
+}
+.topWrapper {
+    display: flex;
+    align-items: center;
+}
+.topContainer {
+    display: flex;
+    justify-content: center;
+}
+.mapContainer {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 96%;
+    height: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mapWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 430px;
+    height: auto;
+}
+
+.searchWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+
+.searchImage {
+    width: 100%;
+}
+
+.inputContainer {
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    width: 85%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputField {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fbe1e8;
+}
+
+.spacer {
+    max-width: 280px;
+    width: 100%;
+}
+
+.boothHeader {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 0 70px 0;
+}
+.boothTitle, .infoTitle {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.teamContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boothPositionContainer {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.teamNameContainer {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 0 0 10vw;
+}
+
+.infoBox {
+    width: fit-content;
+    padding: 4px 10px;
+    border: 1px solid #fbe1e8;
+    font-size: 13px;
+    margin: 0 0 5px 35px;
+}
+
+.boothWrapper {
+    display: flex;
+}
+
+.boothWallLeft {
+    max-width: 180px;
+    width: 100%;
+}
+
+.leftTeamContainer {
+    margin: 0 60px 0 -148px;
+}
+
+.team {
+    max-width: 55px;
+    max-height: 55px;
+    width: 55px;
+    height: 55px;
+    font-size: 20px;
+    color: #fbe1e8;
+    border: 1px solid #fbe1e8;
+    text-align: center;
+    align-content: center;
+    margin: 30px 0;
+}
+
+.team.center {
+    margin: 90px 0 0 0;
+}
+
+.team.active {
+    background-color: #ED8EB5;
+    border: 1px solid #ED8EB5;
+    box-shadow: 0 0 10px #ED8EB5;
+    font-weight: 600;
+    color: #131417;
+}
+
+.boothWallRight {
+    width: 120px;
+}
+
+.rightTeamContainer {
+    margin: 0 -88px 0 100px;
+}
+
+.boothTeamName {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.7vw;
+    cursor: pointer;
+    margin: 13px 40px 0 10px;
+    white-space: nowrap;
+}
+
+.teamDescription {
+    font-size: 1vw;
+    margin: 0 0 2px 15px;
+    white-space: nowrap;
+}
+
+.boothTeamName:hover {
+    color: #ED8EB5;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.boothTeamName.active {
+    color: #ED8EB5;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.boothTeamTitle {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 0 10px;
+}
+
+.searchBtn {
+    max-height: 25px;
+    margin: 0 0 0 20px;
+}
+
+.informationSectionMobile .topWrapper {
+    flex-direction: column;
+}
+
+.informationSectionMobile .mapWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.informationSectionMobile .infoImage {
+    max-width: 300px;
+}
+
+.informationSectionMobile .mapContainer {
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    width: 96%;
+    height: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informationSectionMobile .infoImage2 {
+    max-width: 430px;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.informationSectionMobile .boothHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 60px 0;
+}
+
+.informationSectionMobile .teamContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.informationSectionMobile .boothWallLeft {
+    max-width: 140px;
+    width: 100%;
+}
+
+.informationSectionMobile .leftTeamContainer {
+    margin: 0 60px 0 -108px;
+}
+
+.informationSectionMobile .boothWallRight {
+    width: 80px;
+}
+
+.informationSectionMobile .rightTeamContainer {
+    margin: 0 -48px 0 60px;
+}
+
+.informationSectionMobile .teamNameContainer {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 0;
+}
+
+.informationSectionMobile .boothTeamName {
+    display: flex;
+    align-items: flex-end;
+    font-size: 5vw;
+    cursor: pointer;
+    margin: 8px 0 10px 10px;
+    white-space: nowrap;
+}
+
+.informationSectionMobile .teamDescription {
+    font-size: 2.2vw;
+    margin: 0 0 2px 5px;
+    white-space: nowrap;
+}
+
+.informationSectionMobile .searchWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin: 20px 0 0 0;
+}
+
+.informationSectionMobile .boothPositionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+}
