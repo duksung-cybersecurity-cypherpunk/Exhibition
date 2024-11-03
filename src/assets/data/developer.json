@@ -17,7 +17,7 @@
         "name": "인다운",
         "initial": "IDW",
         "comment": "졸업? 이것 뭐에요~???",
-        "role": "DESIGN / BE / AI"
+        "role": "Design / BE / AI"
       },
       {
         "name": "김나영",
@@ -44,7 +44,7 @@
         "name": "김세연",
         "initial": "KSY",
         "comment": "우당탕탕 졸업작품을 끝냈어요-!!\n1년 동안의 대장정을 끝내니 굉장히 시원섭섭하고.. 드뮤어하고 .. 그러네요\n많은 고난과 역경이 있을 거라고 예상은 했지만.. 예상보다 2.5배 정도 힘들었어요\n하지만! 배운 것도 많고 좋은 팀원들과 함께해서 너무 좋았던 시간이었습니다!!",
-        "role": "DESIGN / AI"
+        "role": "Design / AI"
       }
     ],
     [
@@ -58,7 +58,7 @@
         "name": "홍가영",
         "initial": "HGY",
         "comment": "사이버보안 전공을 하면서 열정 있는 교수님들과 학우들 덕분에 성장할 수 있었고 돈으로도 사지 못할 경험을 한 것 같습니다. 이 소중한 경험들을 바탕으로 사회에 기여하는 전문가로 발전해 나가고 싶습니다.",
-        "role": "DESIGN / IoT"
+        "role": "Design / IoT"
       }
     ],
     [
@@ -87,20 +87,20 @@
         "name": "유혜선",
         "initial": "YHS",
         "comment": "끝~~ 졸업이다\uD83D\uDE0E",
-        "role": "DESIGN / FE"
+        "role": "Design / FE"
       },
       {
         "name": "곽수찬",
         "initial": "KSC",
         "comment": "다들 꽃길만 걷길!! 모두 고생했엉",
-        "role": "DESIGN / FE / BE"
+        "role": "Design / FE / BE"
       },
       {
         "name": "김지윤",
         "initial": "KJY",
         "needResize": true,
         "comment": "졸업하자고? 너 누군데? 아직 안되겠는데? 근데 너 누군데?",
-        "role": "DESIGN / BE"
+        "role": "Design / BE"
       }
     ],
     [
@@ -108,7 +108,7 @@
         "name": "이유영",
         "initial": "LYY",
         "comment": "얘들아(여러분) 4년동안 수고했고 나중에 웃으면서 보자(봅시다)^_^",
-        "role": "Watermarking Algorithm"
+        "role": "Watermarking\nAlgorithm"
       },
       {
         "name": "한지수",
@@ -170,7 +170,7 @@
         "name": "박송희",
         "initial": "PSH",
         "comment": "1년동안 활동하며 협력해서 하나의 결과물을 만들어낸 뜻깊은 활동이었습니다. 수업시간에 배운내용을 직접 구현하면서 수정해나가며 좀 더 발전한거 같습니다. 수고하셨습니다.",
-        "role": "DESIGN / BE"
+        "role": "Design / BE"
       },
       {
         "name": "김소현",
@@ -184,7 +184,7 @@
         "name": "신서영",
         "initial": "SSY",
         "comment": "안녕히 계세요 여러분~ 전 이 세상의 모든 에러 메시지와 밤샘을 벗어던지고 제 졸업을 찾아 떠납니다~\n여러분도 졸업하세요~~\uD83D\uDC4B",
-        "role": "DESIGN / FE / AI"
+        "role": "Design / FE / AI"
       },
       {
         "name": "옥재은",
@@ -204,7 +204,7 @@
         "initial": "PYE",
         "needResize": true,
         "comment": "최고의 팀원들과 함께한 졸업 프로젝트 정말 영광이었습니다~\n항상 행복만 가득한 앞날이 되길 바랍니다 모두 수고하셨습니다!",
-        "role": "PM / DESIGN / BE"
+        "role": "PM / Design / BE"
       }
     ],
     [
@@ -218,7 +218,7 @@
         "name": "강정화",
         "initial": "KJW",
         "comment": "안녕하세요. 강정화입니다. 어떻게 졸작을 하게됐네요. 이제 졸업을 곁들인.\n이렇게 사회에 나가게 되었네요. 물론 저는 학사지만. 이건 저의 소감입니다.\n그냥 졸작을 하면서 이것저것 하되, 하는 내내... 나야 졸작\n많이 신경쓰며 했습니다...예....행복하네예.\n감사합니다.",
-        "role": "DESIGN / FE"
+        "role": "Design / FE"
       },
       {
         "name": "김가현",
@@ -232,13 +232,13 @@
         "name": "신효섬",
         "initial": "SHS",
         "comment": "새로운 앞날을 기대합니다~",
-        "role": "BE / DESIGN / AI"
+        "role": "BE / Design / AI"
       },
       {
         "name": "추시현",
         "initial": "CSH",
         "comment": "졸업하는 하‘chu’핑",
-        "role": "FE / DESIGN / AI"
+        "role": "FE / Design / AI"
       }
     ]
   ]

@@ -75,8 +75,8 @@ const Developer = ({teamId}) => {
                                     ? <div className="mobileChatContainer" key={idx}>
                                         <div className="mobileDeveloperInfoContainerEven">
                                             <div className="mobileDevelopmentInfoWrapperEven">
-                                                <div className="developerName">{developer.name}</div>
                                                 <div className="developerRole">{developer.role}</div>
+                                                <div className="developerName">{developer.name}</div>
                                             </div>
                                             <img src={require(`../assets/images/developers/${developer.initial}.png`)}
                                                  className={devImgClassName(developer.needResize)} alt="developer3"/>
