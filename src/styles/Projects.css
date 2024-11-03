@@ -17,6 +17,12 @@
     width: fit-content;
 }
 
+.projectPageDescriptionMobile {
+    font-size: 5.5vw;
+    margin-top: 27px;
+    width: fit-content;
+}
+
 .projectPageContainer {
     display: flex;
     flex-direction: column;
@@ -275,8 +281,8 @@
 }
 
 .mobileTeamName {
-    font-size: 120%;
-    margin: 0 15px
+    font-size: 5.4vw;
+    margin: 0 10px
 }
 
 .mobileTeamName.selected {
@@ -315,6 +321,17 @@
     align-items: center;
     margin-left: 5px;
     gap: 5px;
+}
+
+.mobileDevelopmentInfoWrapper .developerName, .mobileDevelopmentInfoWrapperEven .developerName {
+    font-size: 5vw;
+    font-weight: 700;
+    margin-top: -8px;
+}
+
+.mobileDevelopmentInfoWrapper .developerRole, .mobileDevelopmentInfoWrapperEven .developerRole {
+    font-size: 3.1vw;
+    white-space: pre-line;
 }
 
 .mobileDevelopmentInfoWrapperEven {

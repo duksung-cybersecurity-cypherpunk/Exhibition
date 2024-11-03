@@ -27,7 +27,7 @@ const Projects = () => {
         <div className="projectPageContainer">
             <div className="projectPageTitleContainer">
                 <div className="projectPageTitle">Projects</div>
-                <div className="projectPageDescription">팀명 클릭 시 작품 설명이 나타납니다.</div>
+                <div className={isMobile ? "projectPageDescriptionMobile" : "projectPageDescription"}>팀명 클릭 시 작품 설명이 나타납니다.</div>
             </div>
             {
                 isMobile
