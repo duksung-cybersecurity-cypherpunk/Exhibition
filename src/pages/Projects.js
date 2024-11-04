@@ -82,7 +82,7 @@ const Projects = () => {
                         <div className="teamRow1">
                             {teamData.map ((team, idx) => (
                                 team.id < 7
-                                    ? <div className={selectedTeamId === team.id ? "mobileTeamName selected" : "mobileTeamName none"} key={idx} onClick={() => setSelectedTeamId(team.id)}>
+                                    ? <div className={selectedTeamId === team.id ? "teamName selected" : "teamName none"} key={idx} onClick={() => setSelectedTeamId(team.id)}>
                                         {team.name}
                                     </div>
                                     : null
@@ -91,7 +91,7 @@ const Projects = () => {
                         <div className="teamRow2">
                             {teamData.map ((team, idx) => (
                                 team.id >= 7
-                                    ? <div className={selectedTeamId === team.id ? "mobileTeamName selected" : "mobileTeamName none"} key={idx} onClick={() => setSelectedTeamId(team.id)}>
+                                    ? <div className={selectedTeamId === team.id ? "teamName selected" : "teamName none"} key={idx} onClick={() => setSelectedTeamId(team.id)}>
                                         {team.name}
                                     </div>
                                     : null
