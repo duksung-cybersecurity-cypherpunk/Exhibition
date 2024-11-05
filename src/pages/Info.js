@@ -162,12 +162,12 @@ const Info = () => {
                             <div className={focusTeam === 6 ? "team active" : "team"}> 6</div>
                         </div>
                         <div className="rightTeamContainer">
-                            <div className={focusTeam === 7 ? "team active" : "team"}> 7</div>
-                            <div className={focusTeam === 8 ? "team active" : "team"}> 8</div>
-                            <div className={focusTeam === 9 ? "team active" : "team"}> 9</div>
-                            <div className={focusTeam === 10 ? "team center active" : "team center"}> 10</div>
-                            <div className={focusTeam === 11 ? "team active" : "team"}> 11</div>
-                            <div className={focusTeam === 12 ? "team active" : "team"}> 12</div>
+                            <div className={focusTeam === 7 ? "team active" : "team"}> 12</div>
+                            <div className={focusTeam === 8 ? "team active" : "team"}> 11</div>
+                            <div className={focusTeam === 9 ? "team active" : "team"}> 10</div>
+                            <div className={focusTeam === 10 ? "team center active" : "team center"}> 9</div>
+                            <div className={focusTeam === 11 ? "team active" : "team"}> 8</div>
+                            <div className={focusTeam === 12 ? "team active" : "team"}> 7</div>
                         </div>
                         <img src={require("../assets/images/WallRight.png")} alt="rightWall"
                              className="boothWallRight"/>
@@ -246,7 +246,7 @@ const Info = () => {
                          onClick={() => teamClickHandler(11)}
                     >
                         <div>11. 진실을 찾아서</div>
-                        <div className="teamDescription">Purge</div>
+                        <div className="teamDescription">투명한 열쇠</div>
                     </div>
                     <div className={focusTeam === 12 ? "boothTeamName active" : "boothTeamName"}
                          onClick={() => teamClickHandler(12)}
