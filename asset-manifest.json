@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Exhibition/static/css/main.9fa3ed86.css",
-    "main.js": "/Exhibition/static/js/main.64fb2895.js",
+    "main.js": "/Exhibition/static/js/main.2b6bbe9d.js",
     "static/media/Main.png": "/Exhibition/static/media/Main.7dca5174d937e206f524.png",
     "static/media/Poster.png": "/Exhibition/static/media/Poster.ac2dfee1fc8be73b956c.png",
     "static/media/HSY.png": "/Exhibition/static/media/HSY.fd0bd00dc8b64c7806b2.png",
@@ -28,9 +28,9 @@
     "static/media/Prof.Park.png": "/Exhibition/static/media/Prof.Park.8674b68b7ba8d6bc0ce8.png",
     "static/media/Ticket.png": "/Exhibition/static/media/Ticket.3ebf6431bbff30c3a469.png",
     "static/media/OJE.png": "/Exhibition/static/media/OJE.b35a11654598b6bdcdb7.png",
+    "static/media/InfoImage.png": "/Exhibition/static/media/InfoImage.8053b9e1de2061a8a0e0.png",
     "static/media/HGY.png": "/Exhibition/static/media/HGY.cd9e4b6338d0897014ae.png",
     "static/media/KJW.png": "/Exhibition/static/media/KJW.4ee2d86d19fd71f9489d.png",
-    "static/media/InfoImage.png": "/Exhibition/static/media/InfoImage.944f46fd74d017c793bc.png",
     "static/media/KSY.png": "/Exhibition/static/media/KSY.22768a494ef4cd075fe9.png",
     "static/media/IJA.png": "/Exhibition/static/media/IJA.74ad08e08d7095d2fc60.png",
     "static/media/LYR.png": "/Exhibition/static/media/LYR.34e71cf2c916f74492bb.png",
@@ -60,10 +60,10 @@
     "static/media/MapContainer.png": "/Exhibition/static/media/MapContainer.47fd65464dad3059361d.png",
     "index.html": "/Exhibition/index.html",
     "main.9fa3ed86.css.map": "/Exhibition/static/css/main.9fa3ed86.css.map",
-    "main.64fb2895.js.map": "/Exhibition/static/js/main.64fb2895.js.map"
+    "main.2b6bbe9d.js.map": "/Exhibition/static/js/main.2b6bbe9d.js.map"
   },
   "entrypoints": [
     "static/css/main.9fa3ed86.css",
-    "static/js/main.64fb2895.js"
+    "static/js/main.2b6bbe9d.js"
   ]
 }
